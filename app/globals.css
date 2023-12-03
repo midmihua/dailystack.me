@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  
+/* teal-400 */
+/* indigo-500 */
+/* pink-400 */
+
+body {
+  @apply bg-white text-slate-800 dark:bg-slate-800 dark:text-slate-100;
 }

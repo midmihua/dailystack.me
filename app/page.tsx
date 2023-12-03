@@ -1,5 +1,9 @@
-import Image from 'next/image'
+import React from 'react';
 
-export default function Home() {
-  return <h1>Hello</h1>
-}
+import HeroPage from '@/app/(features)/hero/hero';
+
+const Main = () => {
+  return <HeroPage />;
+};
+
+export default Main;
